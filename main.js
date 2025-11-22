@@ -3922,7 +3922,7 @@ class MyPlugin extends obsidian.Plugin {
     插入有效空行() {
 		this.获取编辑器信息 ();
         if (!笔记全文) return;
-        笔记全文.replaceRange("　\n", 当前光标, 当前光标);
+        笔记全文.replaceRange("  \n", 当前光标, 当前光标);
         编辑模式.exec("goRight");
         编辑模式.exec("goRight");
     };
